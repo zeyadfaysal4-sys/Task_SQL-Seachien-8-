@@ -1,0 +1,11 @@
+Doctor(Doctor_ID(Pk) , Doctor_Name,  Doctor_Age, Doctor_Email, DoctorSpecialty, Doctor_Years_Of_Experience
+Patient(Patient_UR , PatientHealth_Numbers , Patient_Age ,Patient_Address, Patient_Name , Patient_Number, Patient_Age , Doctor_ID (FK)
+Medicationss(Medicationss_DrugName(PK),Medicationss_strength
+Company(Company_Name,Company,Company_Number,Company_Address,Medicationss_DrugName(FK)
+Prescription(Prescription_Doctor_ID (FK),Patient_UR (FK), Drug_Name (FK) , Date ,Quantity
+
+
+
+
+
+
